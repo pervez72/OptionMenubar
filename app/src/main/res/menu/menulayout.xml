@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/settingId"
+        android:title="setting"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_settings_24"
+        />
+    <item
+        android:id="@+id/ShareId"
+        android:title="Share"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_share_24"
+        />
+    <item
+        android:id="@+id/FeedbackId"
+        android:title="Feedback"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/About_usId"
+        android:title="About us"
+        app:showAsAction="never"
+        />
+
+
+
+
+
+</menu>
